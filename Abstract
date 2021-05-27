@@ -1,0 +1,15 @@
+Genome annotation improvement analysing the gene KaKs ratio: A practical case with the genome of Acinetobacter baumannii
+
+The current availability of complete genome sequences has allowed numerous comparative studies to be carried out to better understand the genome of a species. 
+These studies are highly dependent on the quality of the used genome assemblies, so sequence errors cause poor gene prediction (1). For this reason, new tools 
+and methods have emerged to search for new coding regions and thus be able to complete the genome annotation. An example of this is AnaABlast, developed by our
+group, an algorithm that discovers small and complex hidden coding sequences (2). We have already shown that the Nonsynonymous / Synonymous Substitution ratio 
+(KaKs ratio) could effectively measure evolutionary pressure in other bacteria such as Helicobacter pylori (3). In this work, we propose using AnABlast and the
+KaKs ratio to detect regions poorly annotated by current gene finders and discover new possible protein-coding regions. For this study, we use Acinetobacter baumannii, 
+an opportunistic bacterium that causes nosocomial infections with high mortality and morbidity (4), because it presents many sequenced strains allowing large-scale
+evolutionary analysis. We carried out a proof of concept with the ATCC 17978 strain, used as a reference of this species, to validate this approach. It presents two 
+genome versions sequenced with different NGS tools, the most current version being the most reliable. We performed a comparative analysis between both versions, and
+we identified more than 200 genes that showed a wrong annotation in the first genome version of the ATCC 17978 strain. After the estimation of modifications, the 
+evolutionary selection for each gene has been calculated using almost 2200 strains. We found that the KaKs ratio improved mostly when the most current version gene 
+is used as a reference. Furthermore, we discovered some regions which could be new coding genes using our gene predictor. It is a preliminary result, so we must implement
+an even more detailed comparative analysis. All these preliminary results propose that this type of analysis could be helpful to validate and correct genetic predictions.
