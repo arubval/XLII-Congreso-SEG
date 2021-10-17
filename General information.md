@@ -18,15 +18,18 @@ an even more detailed comparative analysis. All these preliminary results propos
 
 ![imagen](https://user-images.githubusercontent.com/84905997/119867469-368bfc80-bf1e-11eb-92ba-ce301775c401.png)
 
-
 Figure 1. We have already shown that the Nonsynonymous/Synonymous Substitution ratio (KaKs ratio) could effectively measure evolutionary pressure in other bacteria 
 such as Helicobacter pylori. Distribution of the Ka/Ks ratio in all the protein-coding genes from the pangenome, where different groups are highlighted (different colors) 
 and genes that encode for uncharacterized proteins (asterisks). Black dots represent the median of the distribution
 
 ![imagen](https://user-images.githubusercontent.com/84905997/119866979-ad74c580-bf1d-11eb-815a-3f47c5fa2f3d.png)
 
+Figure 2. Ka/Ks ratio for putative codings regions. We discovered some regions that could be new coding genes using our protocol in the genome of a reference strain of 
+Acinetobacter baumannii. These candidates showed KaKs ratio values less than one as expected in coding regions.
 
-Figure 2. Proof of concept. A different annotation is observed when comparing the region 40211-47135 in both versions of the ATCC 17978 strain. 
+![imagen](https://user-images.githubusercontent.com/84905997/137625739-9fd711ae-6729-49df-b93c-bdd0eaf1626c.png)
+
+Figure 3. Proof of concept. A different annotation is observed when comparing the region 40211-47135 in both versions of the ATCC 17978 strain. 
 The previous version has two different genes, whereas the new version has only one. The evolutionary comparison with 2200 strains indicates a better 
 result when the most current version of the region is used as a reference since the KaKs ratio is lower. The sequence-level comparison shows changes 
 that cause a frameshift in the previous version. (a) AnABlast profile highlighting protein-coding regions in the annotated czA gene in the ATCC 17978 
@@ -35,7 +38,7 @@ of the C-terminal region between the czA_previous_1 and cza_new gene. We used di
 
 ![imagen](https://user-images.githubusercontent.com/84905997/119867316-0ba1a880-bf1e-11eb-82fc-a8927c0adcd9.png)
 
-Figure 3. Estimation of evolutionary selection in differentially annotated genes. The changes in the KaKs ratio, depending on the version of the gene used as a reference, 
+Figure 4. Estimation of evolutionary selection in differentially annotated genes. The changes in the KaKs ratio, depending on the version of the gene used as a reference, 
 are represented with lines of a different colour (green bars when the ratio improves and red bars when the ratio does not improve). The KaKs ratio improved mostly when the 
 most current version gene is used as a reference. The dashed black line represents the kaks ratio of 1.
 
